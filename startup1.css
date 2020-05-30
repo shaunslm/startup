@@ -1,0 +1,85 @@
+
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+
+
+/*TO MAKE SURE THE BODY AND HTML COVER 100% of whatever we see on the screen
+GOOD PRACTICE to use*/
+  
+  body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+background: url(header.jpg)no-repeat center center fixed;
+-webkit-background-size: cover; 
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+h1{
+
+  font-size: 3rem;
+color:#e2dbdb;
+
+}
+ /*BOOTSTRAP BUTTONs*/
+
+
+/*ADJUSTING FONT WEIGHT 
+BORDER RADIUS AND....*/
+.btn{
+
+font-weight: 700;
+border-radius:300px ;
+text-transform: uppercase;
+}
+
+/*remember these both have to be the same cause of bootstrap button
+you have to change primarry settings*/
+.btn-primary{
+
+  background-color: rgb(255, 188, 20);
+color: black;
+border-color:  silver;
+
+}
+/*reset size with custom class*/
+.-size{
+
+
+  padding:1rem 3rem;
+
+
+}
+/*customize hover effext with bootstrap originl class*/
+.btn-primary:hover{
+
+color: white;
+background: rgb(187, 138, 4);
+border-color: rgb(187, 138, 4);
+border-width: 4px;
+}
+
+
+
+
+hr{
+border-color: blue;
+border-width:3px;
+max-width: 65px;
+}
+
+
+.buffer{
+height: 10rem;
+
+}
+
